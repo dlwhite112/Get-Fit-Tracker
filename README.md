@@ -38,7 +38,7 @@ Staying motivated while pursuing fitness goals is hard no matter what your fitne
     Dl.dev - https://github.com/dlwhite112
 
 ## Screenshots
-
+<img width="1536" alt="fitness-tracker-screnshot" src="https://user-images.githubusercontent.com/74333123/120710879-51152700-c484-11eb-8b4c-bf6445a1b475.png">
 
 ## Tools
 
@@ -48,7 +48,8 @@ Staying motivated while pursuing fitness goals is hard no matter what your fitne
 - Heroku
 
 ## Links
-
+repo - https://github.com/dlwhite112/Get-Fit-Tracker
+heroku - https://desolate-anchorage-73092.herokuapp.com/?id=60b93bfabdf43f0015a32a66
 
 ## Questions
 
