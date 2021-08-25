@@ -1,13 +1,11 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   padding: 0;
 }
 
-html,
-body,
-.wrapper {
+body {
   max-width: 1800px;
   background: #191414;
   margin: 0 auto;
@@ -26,7 +24,7 @@ nav {
   color: #ffffff;
   height: 80px;
   line-height: 3;
-  font-size: 1.2rem;
+  font-size: 20px;
 }
 .nav_left {
   display: flex;
@@ -37,17 +35,21 @@ nav {
 .nav_links {
   color: rgba(189, 189, 189, 0.55);
 }
+
+.hero_container {
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
 .hero_section {
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-top: 130px;
-  margin-bottom: 100px;
+  margin-top: 15px;
+  margin-bottom: 180px;
 }
-.hero_section__img {
-  /* max-width: 1200px; */
-}
-.hero_section__text{
+
+.hero_section__text {
   max-width: max-content;
   position: absolute;
   margin: 220px 0px 0px 110px;
@@ -62,7 +64,7 @@ nav {
   margin-bottom: 30px;
 }
 .hero_section__text p {
-  font-size: 2em;
+  font-size: 24px;
   color: #d7d7d7;
   max-width: 450px;
   margin-bottom: 100px;
@@ -73,7 +75,7 @@ nav {
   font-size: 1.5em;
   border-radius: 2px;
   text-transform: uppercase;
-  background:rgba(199, 88, 68, 0.96);
+  background: rgba(199, 88, 68, 0.96);
 }
 .signup_btn {
   padding: 15px 40px;
@@ -96,15 +98,61 @@ nav a:hover {
 }
 
 header {
-  height: 150px;
-  padding-top: 80px;
-  text-align: center;
-  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 120px;
 }
 
 header h1 {
-  transform: skewX(-2deg);
+  /* margin: 0 auto; */
+  font-size: 64px;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgba(199, 88, 68, 0.96);
+  line-height: 80px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  /* transform: skewX(-2deg); */
 }
+
+.cards_container {
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+  justify-content: space-evenly;
+}
+
+.card {
+  text-align: center;
+  max-width: 240px;
+}
+.icons {
+  max-width: 150px;
+}
+h2 {
+  font-size: 24px;
+  color: #d7d7d7;
+}
+
+.captions {
+  max-width: 790px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #727272;
+}
+
+.bottom_section{
+  margin: 90px;
+  padding-bottom: 90px;
+}
+
+
+
 
 select {
   display: block;
@@ -158,7 +206,7 @@ input {
 }
 
 .wrapper {
-  background-color: #f2f8ff;
+  background: rgb(197, 195, 192);
   padding-bottom: 100px;
 }
 
